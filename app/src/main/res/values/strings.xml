@@ -2,4 +2,15 @@
     <string name="app_name">CHD</string>
     <string name="hint_name">Name</string>
     <string name="hint_age">Age</string>
+    <string name="gender_string">Gender</string>
+    <string name="chest_paint_type_string">Chest Paint Type</string>
+    <string name="fast_sugar">fasting blood sugar yes if >120</string>
+    <string name="ecg_of_the_patient_in_rest">ECG of the patient in rest</string>
+    <string name="exercise">Exercise included Angina?</string>
+    <string name="slope_string">The slope of the peak exercise </string>
+    <string name="thal_string">Thal</string>
+    <string-array name="genders">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
 </resources>

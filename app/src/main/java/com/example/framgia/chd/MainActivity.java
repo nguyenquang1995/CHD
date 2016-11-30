@@ -4,10 +4,11 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
-import android.widget.Spinner;
+
+import com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner;
 
 public class MainActivity extends AppCompatActivity {
-    private Spinner mGenderSpinner;
+    private MaterialBetterSpinner mGenderSpinner;
     private EditText mEdtName, mEdtAge;
 
     @Override
@@ -21,12 +22,12 @@ public class MainActivity extends AppCompatActivity {
         mEdtName = (EditText) findViewById(R.id.input_name);
         mEdtAge = (EditText) findViewById(R.id.input_age);
         // set up gender spinner
-        String[] genders = {"Male", "Female"};
-        mGenderSpinner = (Spinner) findViewById(R.id.spinner_gender);
+        String[] genders = getResources().getStringArray(R.array.genders);
+        mGenderSpinner = (MaterialBetterSpinner) findViewById(R.id.spinner_gender);
         ArrayAdapter<String> genderAdapter = new ArrayAdapter<>
             (
                 this,
-                android.R.layout.simple_spinner_item,
+                android.R.layout.simple_dropdown_item_1line,
                 genders
             );
         mGenderSpinner.setAdapter(genderAdapter);

@@ -36,10 +36,47 @@
 
         </android.support.design.widget.TextInputLayout>
 
-        <Spinner
+        <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
             android:id="@+id/spinner_gender"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="5"/>
+            android:layout_weight="5"
+            android:hint="@string/gender_string"/>
     </LinearLayout>
+
+    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+        android:id="@+id/spinner_cpt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/chest_paint_type_string"/>
+
+    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+        android:id="@+id/spinner_blood_sugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/fast_sugar"/>
+
+    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+        android:id="@+id/spinner_ecg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ecg_of_the_patient_in_rest"/>
+
+    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+        android:id="@+id/spinner_exercise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/exercise"/>
+
+    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+        android:id="@+id/spinner_slope"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/slope_string"/>
+
+    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+        android:id="@+id/spinner_thal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/thal_string"/>
 </LinearLayout>
