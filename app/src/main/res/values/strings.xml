@@ -9,8 +9,38 @@
     <string name="exercise">Exercise included Angina?</string>
     <string name="slope_string">The slope of the peak exercise </string>
     <string name="thal_string">Thal</string>
+    <string name="vessels_string">Number of major vessels colored</string>
+    <string name="hint_blood_pressure">Resting blood pressure</string>
+    <string name="hint_cholesterol">Serum cholesterol mg/dl</string>
+    <string name="hint_max_heart_rate">Maximum heart rate Achieved</string>
+    <string name="hint_st_depression">ST depression included by exercise</string>
+    <string name="predict_string">Predict</string>
     <string-array name="genders">
         <item>Male</item>
         <item>Female</item>
+    </string-array>
+    <string-array name="chest_paints">
+        <item>typical angina</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="yes_no_question">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="ecg">
+        <item>Having ST-T wave</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="slopes">
+        <item>up sloping</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="vessels">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="thals">
+        <item>normal</item>
+        <item>hard</item>
     </string-array>
 </resources>
